@@ -1,0 +1,8 @@
+numpy
+transformers
+tqdm
+datasets
+matplotlib
+accelerate
+bitsandbytes
+flash-attn
