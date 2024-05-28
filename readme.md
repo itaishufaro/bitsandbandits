@@ -1,5 +1,5 @@
 # On Bits and Bandits: Quantifying the Regret-Information Trade-off
-This repo implements the experiments for the paper [On Bits and Bandits: Quantifying the Regret-Information Trade-off](Insert link here).
+This repo implements the experiments for the paper [On Bits and Bandits: Quantifying the Regret-Information Trade-off](https://arxiv.org/abs/2405.16581).
 
 ## Requirements
 Before installing the required packages, make sure that you have Python 3.10 or later installed.
