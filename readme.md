@@ -39,11 +39,11 @@ The seed flag specifies which seed to use. In the paper we used the following se
 123456, 123456789, 667,7890, 54678, 75867, 1738, 609854, 16785. The large flag specifies whether to
 evaluate using the large LLM. For each seed you use run using the following LLM. You can get a graph for a specific seed by running:
 ```bash
-cd "Contextual MAB"
+cd "MCQA task"
 python print_results.py --seed []
 ```
 For printing the means over multiple seeds, simply run
 ```bash
-cd "Contextual MAB"
+cd "MCQA task"
 python print_results.py --seed [<List of seeds>] --print
 ```

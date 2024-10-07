@@ -10,7 +10,7 @@ class exp3:
         self.eta = eta
         self.gamma = gamma
         self.p = np.ones((n_arms,)) / n_arms
-        self.i_prior = np.copy(self.p)
+        self.i_prior = np.ones((n_arms,)) / n_arms
 
     def update_p(self):
         tmp = np.exp(-self.eta * self.L)
@@ -19,6 +19,7 @@ class exp3:
     def reset(self):
         self.L = np.zeros((self.n_arms,))
         self.p = np.ones((self.n_arms,)) / self.n_arms
+        self.i_prior = np.ones((self.n_arms,)) / self.n_arms
 
     def pull_arm(self):
         a = np.random.choice(self.n_arms, p=self.p)
